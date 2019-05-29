@@ -1,13 +1,21 @@
 {
-  "name": "ndc-ui",
-  "version": "0.1.0",
-  "private": true,
+  "name": "ndc-custom-ui",
+  "version": "0.1.5",
+  "description": "A Component Library for Vue.js.",
+  "private": false,
+  "main": "lib/ndc-custom-ui.umd.min.js",
+  "style": "lib/ndc-custom-ui.css",
+  "files": [
+    "lib",
+    "packages"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "lib": "vue-cli-service build --target lib --name ndc-custom-ui --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -26,6 +34,7 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
+    "babel-plugin-component": "^1.1.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "lint-staged": "^8.1.5",
@@ -41,5 +50,6 @@
       "vue-cli-service lint",
       "git add"
     ]
-  }
+  },
+  "license": "MIT"
 }
