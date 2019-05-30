@@ -50,7 +50,6 @@ export default {
     margin: 0 auto;
     display: flex;
     background-color: #fff;
-    box-shadow: 0 4px 30px 0 rgba(223, 225, 230, 0.5);
     .nav {
       overflow-y: auto;
       width: 210px;

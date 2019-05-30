@@ -1,7 +1,7 @@
-import Button from './src/button.vue';
+import NdcButton from './src/button.vue';
 
-Button.install = (Vue) => {
-  Vue.component(Button.name, Button);
+NdcButton.install = (Vue) => {
+  Vue.component(NdcButton.name, NdcButton);
 };
 
-export default Button;
+export default NdcButton;

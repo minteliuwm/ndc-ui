@@ -1,0 +1,8 @@
+*.sh
+node_modules
+dist
+lib
+*.md
+*.scss
+*.woff
+*.ttf

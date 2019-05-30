@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import navConf from '@/nav.config.json';
+import hljs from 'highlight.js';
 
 Vue.use(Router);
 
@@ -34,6 +35,15 @@ addComponent(routes);
 
 const availableRoutes = routes.filter(item => item.path);
 
-export default new Router({
+const router = new Router({
   routes: availableRoutes
 });
+
+router.afterEach(route => {
+  Vue.nextTick(() => {
+    const blocks = document.querySelectorAll('pre code:not(.hljs)');
+    Array.prototype.forEach.call(blocks, hljs.highlightBlock);
+  });
+});
+
+export default router;

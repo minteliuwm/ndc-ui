@@ -1,6 +1,6 @@
 <template>
   <button class="ndc-button" :class="['ndc-button-' + theme]" :disabled="disabled" @click="onClick">
-		<i v-if="icon" class="ndc-button-icon" :class="['icon-' + icon]"></i>
+		<i v-if="icon" class="ndc-button-icon" :class="icon ? icon : ''"></i>
 		<slot></slot>
 	</button>
 </template>
@@ -14,8 +14,8 @@ export default {
       default: false
     },
     icon: {
-      type: [Boolean, String],
-      default: false
+      type: String,
+      default: ''
     },
     theme: {
       default: 'default',

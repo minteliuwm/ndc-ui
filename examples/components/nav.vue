@@ -9,16 +9,6 @@
             v-if="nav.name"
             :to="{name: nav.name}"
           >{{nav.desc}}</router-link>
-          <p v-else class="page-nav-group">{{nav.desc}}</p>
-          <div v-for="item in nav.items" :key="item.name">
-            <router-link
-              :to="{name: item.name}"
-              :class="$route.name === item.name ? 'active' : ''"
-              class="slid-nav-component"
-            >
-              <span class="en-name">{{item.desc}}</span>
-            </router-link>
-          </div>
         </template>
       </div>
     </div>
@@ -41,20 +31,16 @@ export default {
   display: inline-block;
   margin: 32px 0;
   padding: 0;
-  color: #3f536e;
+  color: #333;
   background-color: #fff;
   z-index: 99;
   .group-container {
     margin-bottom: 32px;
   }
   .page-nav-title {
-    padding: 0 24px 8px;
-    color: #628cf5;
-    font-size: 12px;
+    font-size: 16px;
+    line-height: 40px;
     font-weight: bold;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    opacity: 0.8;
   }
   .page-nav-items {
     font-size: 14px;
@@ -64,28 +50,16 @@ export default {
       display: block;
       position: relative;
       padding: 8px 24px;
-      color: #3f536e;
+      color: #333;
       font-weight: normal;
       line-height: 1.5;
       cursor: pointer;
-    }
-    .page-nav-group {
-      display: block;
-      position: relative;
-      padding: 6px 0 6px 24px;
-      color: #2c405a;
-      font-weight: bold;
-    }
-    .slid-nav-component {
-      display: block;
-      position: relative;
-      padding: 6px 24px 6px 32px;
-      color: #616367;
-      font-size: 14px;
-    }
-    .active {
-      color: #628cf5;
-      font-weight: bold;
+      &.hover {
+        color: #2888fb;
+      }
+      &.active {
+        color: #3274e6;
+      }
     }
   }
 }

@@ -1,9 +1,11 @@
 /* eslint-disable */
 // This file is auto gererated by build/build-entry.js
     import Button from './button'
+import Icon from './icon'
     const version = '0.1.7'
     const components = [
-      Button
+      Button,
+  Icon
     ]
     const install = Vue => {
       components.forEach(Component => {
@@ -17,7 +19,8 @@
     export {
       install,
       version,
-      Button
+      Button,
+  Icon
     }
     export default {
       install,
