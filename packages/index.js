@@ -1,21 +1,26 @@
-import Button from './button';
-
-const components = [
-  Button
-];
-
-const install = (Vue) => {
-  if (install.installed) {
-    return;
-  }
-  components.map(component => Vue.component(component.name, component));
-};
-
-if (typeof window !== 'undefined' && window.Vue) {
-  install(window.Vue);
-}
-
-export default {
-  install,
-  Button
-};
+/* eslint-disable */
+// This file is auto gererated by build/build-entry.js
+    import Button from './button'
+    const version = '0.1.5'
+    const components = [
+      Button
+    ]
+    const install = Vue => {
+      components.forEach(Component => {
+        Vue.use(Component)
+      })
+    };
+    /* istanbul ignore if */
+    if (typeof window !== 'undefined' && window.Vue) {
+      install(window.Vue)
+    }
+    export {
+      install,
+      version,
+      Button
+    }
+    export default {
+      install,
+      version
+    }
+  

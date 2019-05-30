@@ -1,0 +1,274 @@
+@font-face {
+  font-family: 'ndc-icons';
+  src: url('fonts/ndc-icons.eot?bbvir7');
+  src: url('fonts/ndc-icons.eot?bbvir7#iefix') format('embedded-opentype'),
+    url('fonts/ndc-icons.ttf?bbvir7') format('truetype'),
+    url('fonts/ndc-icons.woff?bbvir7') format('woff'),
+    url('fonts/ndc-icons.svg?bbvir7#ndc-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ndc-icon-"],
+[class*=" ndc-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ndc-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ndc-icon-file-copy:before {
+  content: "\e900";
+}
+
+.ndc-icon-line:before {
+  content: "\e901";
+}
+
+.ndc-icon-choose:before {
+  content: "\e902";
+}
+
+.ndc-icon-plus:before {
+  content: "\e903";
+}
+
+.ndc-icon-minus:before {
+  content: "\e904";
+}
+
+.ndc-icon-eye:before {
+  content: "\e905";
+}
+
+.ndc-icon-eye-open:before {
+  content: "\e906";
+}
+
+.ndc-icon-table:before {
+  content: "\e907";
+}
+
+.ndc-icon-task:before {
+  content: "\e908";
+}
+
+.ndc-icon-source:before {
+  content: "\e909";
+}
+
+.ndc-icon-engine:before {
+  content: "\e90a";
+}
+
+.ndc-icon-warn-solid:before {
+  content: "\e913";
+}
+
+.ndc-icon-info-solid:before {
+  content: "\e914";
+}
+
+.ndc-icon-question-solid:before {
+  content: "\e915";
+}
+
+.ndc-icon-undo:before {
+  content: "\e916";
+}
+
+.ndc-icon-stop:before {
+  content: "\e917";
+}
+
+.ndc-icon-notAllow:before {
+  content: "\e918";
+}
+
+.ndc-icon-success:before {
+  content: "\e919";
+}
+
+.ndc-icon-warn:before {
+  content: "\e91a";
+}
+
+.ndc-icon-plus-circle:before {
+  content: "\e91b";
+}
+
+.ndc-icon-minus-circle:before {
+  content: "\e91c";
+}
+
+.ndc-icon-move:before {
+  content: "\e91d";
+}
+
+.ndc-icon-error:before {
+  content: "\e91e";
+}
+
+.ndc-icon-build:before {
+  content: "\e91f";
+}
+
+.ndc-icon-fix:before {
+  content: "\e920";
+}
+
+.ndc-icon-down:before {
+  content: "\e921";
+}
+
+.ndc-icon-up:before {
+  content: "\e922";
+}
+
+.ndc-icon-drop-down:before {
+  content: "\e923";
+}
+
+.ndc-icon-close:before {
+  content: "\e924";
+}
+
+.ndc-icon-search:before {
+  content: "\e925";
+}
+
+.ndc-icon-back:before {
+  content: "\e926";
+}
+
+.ndc-icon-info:before {
+  content: "\e927";
+}
+
+.ndc-icon-add:before {
+  content: "\e929";
+}
+
+.ndc-icon-refresh:before {
+  content: "\e92a";
+}
+
+.ndc-icon-cpu:before {
+  content: "\e92b";
+}
+
+.ndc-icon-previous:before {
+  content: "\e92c";
+}
+
+.ndc-icon-next:before {
+  content: "\e92d";
+}
+
+.ndc-icon-setting:before {
+  content: "\e92e";
+}
+
+.ndc-icon-question:before {
+  content: "\e92f";
+}
+
+.ndc-icon-view:before {
+  content: "\e930";
+}
+
+.ndc-icon-tick:before {
+  content: "\e931";
+}
+
+.ndc-icon-chevron-down:before {
+  content: "\e932";
+}
+
+.ndc-icon-chevron-up:before {
+  content: "\e933";
+}
+
+.ndc-icon-finance:before {
+  content: "\e934";
+}
+
+.ndc-icon-db:before {
+  content: "\e935";
+}
+
+.ndc-icon-dbn:before {
+  content: "\e936";
+}
+
+.ndc-icon-export:before {
+  content: "\e937";
+}
+
+.ndc-icon-import:before {
+  content: "\e938";
+}
+
+.ndc-icon-mgr:before {
+  content: "\e939";
+}
+
+.ndc-icon-mig:before {
+  content: "\e93a";
+}
+
+.ndc-icon-policy:before {
+  content: "\e93b";
+}
+
+.ndc-icon-save:before {
+  content: "\e93c";
+}
+
+.ndc-icon-sql:before {
+  content: "\e93d";
+}
+
+.ndc-icon-document:before {
+  content: "\e93e";
+}
+
+.ndc-icon-timing:before {
+  content: "\e93f";
+}
+
+.ndc-icon-trigger:before {
+  content: "\e940";
+}
+
+.ndc-icon-user:before {
+  content: "\e941";
+}
+
+.ndc-icon-fullScreen_off:before {
+  content: "\e942";
+}
+
+.ndc-icon-fullScreen_on:before {
+  content: "\e943";
+}
+
+.ndc-icon-tpl:before {
+  content: "\e944";
+}
+
+.ndc-icon-filter:before {
+  content: "\e945";
+}
+
+.ndc-icon-more:before {
+  content: "\e946";
+}

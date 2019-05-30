@@ -1,0 +1,298 @@
+$activeColor: #3274E6;
+$hoverColor: #8AB3FF;
+
+input,
+textarea {
+	&.overLength,
+	&.invalid {
+		border-color: #fa8675 !important;
+	}
+}
+
+//function
+.f-fl {
+	float: left;
+}
+
+.f-fr {
+	float: right;
+}
+
+.f-csp {
+	cursor: pointer;
+}
+
+.f-oa {
+	overflow: auto;
+}
+
+.f-eps {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.f-vb {
+	vertical-align: baseline;
+}
+
+// global
+.g {
+
+	// 左边距
+	&-ml {
+		&-6 {
+			margin-left: 6px;
+		}
+
+		&-8 {
+			margin-left: 8px;
+		}
+
+		&-10 {
+			margin-left: 10px;
+		}
+
+		&-12 {
+			margin-left: 12px;
+		}
+
+		&-16 {
+			margin-left: 16px;
+		}
+
+		&-20 {
+			margin-left: 20px;
+		}
+
+		&-24 {
+			margin-left: 24px;
+		}
+
+		&-32 {
+			margin-left: 32px;
+		}
+
+		&-40 {
+			margin-left: 40px;
+		}
+	}
+
+	// 右边距
+	&-mr {
+		&-8 {
+			margin-right: 8px;
+		}
+
+		&-16 {
+			margin-right: 16px;
+		}
+
+		&-20 {
+			margin-right: 20px;
+		}
+	}
+
+	// 上边距
+	&-mt {
+		&-10 {
+			margin-top: 10px;
+		}
+
+		&-12 {
+			margin-top: 12px;
+		}
+
+		&-16 {
+			margin-top: 16px;
+		}
+
+		&-20 {
+			margin-top: 20px;
+		}
+
+		&-24 {
+			margin-top: 24px;
+		}
+	}
+
+	&-pl {
+		&-18 {
+			padding-left: 18px;
+		}
+
+		&-36 {
+			padding-left: 36px;
+		}
+	}
+
+	&-pr {
+		&-18 {
+			padding-right: 18px;
+		}
+	}
+
+	// flex布局
+	&-flex {
+		display: flex;
+
+		&-jc {
+			display: flex;
+			justify-content: center;
+		}
+
+		&-ac {
+			display: flex;
+			align-items: center;
+		}
+
+		&-center {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		&-col {
+			display: flex;
+			flex-direction: column;
+		}
+
+		&-jsb {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		&-jsa {
+			display: flex;
+			justify-content: space-around;
+		}
+
+		&-wrap {
+			display: flex;
+			flex-wrap: wrap;
+		}
+	}
+
+	// 文字
+	&-text {
+		font-size: 14px;
+		letter-spacing: 0;
+
+		&-light {
+			font-weight: lighter;
+		}
+
+		&-medium {
+			font-weight: normal;
+		}
+
+		&-semi {
+			font-weight: bold;
+		}
+
+		&-default {
+			color: #808080;
+			line-height: 48px;
+		}
+
+		&-title {
+			color: #333;
+			font-size: 16px;
+			font-family: PingFangSC-Semibold;
+			line-height: 48px;
+		}
+
+		&-disable {
+			color: #999;
+		}
+
+		&-error {
+			font-size: 12px;
+			color: #ee5b5f;
+		}
+
+		&-noselect {
+			user-select: none;
+		}
+
+		&-link {
+			color: $activeColor;
+			cursor: pointer;
+		}
+
+		&-link:hover {
+			color: $hoverColor;
+		}
+
+		&-center {
+			text-align: center;
+		}
+
+		&-nowrap {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		&-prenowrap {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			direction: rtl;
+			text-align: left;
+		}
+
+		&-active {
+			color: $activeColor;
+		}
+
+		&-12 {
+			font-size: 12px;
+		}
+
+		&-16 {
+			font-size: 16px;
+		}
+
+		&-18 {
+			font-size: 18px;
+		}
+
+		&-24 {
+			font-size: 24px;
+		}
+
+		&-28 {
+			font-size: 28px;
+		}
+
+		&-green {
+			color: green;
+		}
+
+		&-red {
+			color: red;
+		}
+	}
+
+	&-lh {
+		&-24 {
+			line-height: 24px;
+		}
+
+		&-48 {
+			line-height: 48px;
+		}
+	}
+
+	&-cursor {
+		&-default {
+			cursor: default;
+			user-select: none;
+		}
+
+		&-pointer {
+			cursor: pointer;
+		}
+	}
+}

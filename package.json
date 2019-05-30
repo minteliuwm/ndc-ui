@@ -9,19 +9,26 @@
     "lib",
     "packages"
   ],
+  "license": "MIT",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "init": "npm install commitizen -g && commitizen init cz-conventional-changelog --save-dev --save-exact && npm run bootstrap",
+    "bootstrap": "npm install && cd ./packages/theme-chalk && npm install",
+    "dev": "npm run build:entry && vue-cli-service serve",
     "lint": "vue-cli-service lint",
-    "test:e2e": "vue-cli-service test:e2e",
-    "test:unit": "vue-cli-service test:unit",
-    "lib": "vue-cli-service build --target lib --name ndc-custom-ui --dest lib packages/index.js"
+    "lib": "vue-cli-service build --target lib --name ndc-custom-ui --dest lib packages/index.js",
+    "clean": "rimraf lib && rimraf packages/*/lib",
+    "dev:style": "gulp --gulpfile packages/theme-chalk/gulpfile.js",
+    "build:docs": "vue-cli-service build",
+    "build:entry": "node build/build-entry.js ",
+    "build:lib": "node build/build-lib.js ",
+    "build:style": "gulp build --gulpfile packages/theme-chalk/gulpfile.js && cp-cli packages/theme-chalk/lib lib/theme-chalk",
+    "publish:docs": "node build/publish-docs.js",
+    "release": "sh build/release.sh",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.10",
-    "vue-router": "^3.0.3",
-    "vuex": "^3.0.1"
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.1.1",
@@ -35,12 +42,31 @@
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
     "babel-plugin-component": "^1.1.1",
+    "commitizen": "^3.1.1",
+    "cp-cli": "^2.0.0",
+    "cssnano": "^4.1.10",
+    "cz-conventional-changelog": "^2.1.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "fs-extra": "^8.0.1",
+    "gh-pages": "^2.0.1",
+    "highlight": "^0.2.4",
+    "highlight.js": "^9.15.6",
     "lint-staged": "^8.1.5",
+    "markdown-it": "^8.4.2",
+    "markdown-it-anchor": "^5.2.3",
+    "markdown-it-container": "^2.0.0",
+    "markdown-it-decorate": "^1.2.2",
+    "markdown-it-task-checkbox": "^1.0.6",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.6.10"
+    "shelljs": "^0.8.3",
+    "signale": "^1.4.0",
+    "uppercamelcase": "^3.0.0",
+    "vue-markdown-loader": "^2.4.1",
+    "vue-router": "^3.0.3",
+    "vue-template-compiler": "^2.6.10",
+    "vuex": "^3.0.1"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
@@ -51,5 +77,9 @@
       "git add"
     ]
   },
-  "license": "MIT"
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }

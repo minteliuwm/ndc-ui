@@ -1,0 +1,22 @@
+{
+  "开发指南": [{
+    "name": "site-index",
+    "path": "/"
+  },{
+    "name": "introduce",
+    "path": "/introduce",
+    "desc": "介绍"
+  },{
+    "name": "start",
+    "path": "/start",
+    "desc": "快速上手"
+  }],
+  "组件": [{
+    "desc": "按钮组件",
+    "items": [{
+      "desc": "Button 按钮",
+      "name": "button",
+      "path": "/button"
+    }]
+  }]
+}

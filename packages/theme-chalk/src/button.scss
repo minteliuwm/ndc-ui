@@ -1,0 +1,58 @@
+$active_color: #3274e6;
+$hover_color: #2888fb;
+$border_color: #d9dde3;
+
+.ndc-button {
+  box-sizing: border-box;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 3px;
+  min-width: 80px;
+  padding: 0 22px;
+	vertical-align: middle;
+	font-size: 14px;
+	cursor: pointer;
+  &-icon {
+    color: inherit;
+    margin-right: 4px;
+    margin-left: -8px;
+  }
+  &.ndc-button-default {
+    background-color: #fff;
+    border: 1px solid $border_color;
+    color: #666;
+    &:hover {
+      border-color: $active_color;
+      color: $active_color;
+    }
+  }
+  &.ndc-button-primary {
+		color: #fff;
+		border: 1px solid $active_color;
+    background-color: $active_color;
+    &:hover {
+      background-color: $hover_color;
+			border: 1px solid $hover_color;
+    }
+	}
+	&.ndc-button-active {
+		border: 1px solid $active_color;
+		color: $active_color;
+		background-color: #fff;
+		&:hover {
+			border-color: $hover_color;
+      color: $hover_color;
+		}
+	}
+  &.ndc-button-primary[disabled],
+  &.ndc-button-default[disabled] {
+    background-color: #f5f5f5;
+    border: 1px solid $border_color;
+    cursor: not-allowed;
+    color: #999;
+		&:hover {
+      border-color: $border_color;
+      color: #999;
+    }
+  }
+}
