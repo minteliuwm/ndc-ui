@@ -1,6 +1,6 @@
 {
   "name": "ndc-custom-ui",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "A Component Library for Vue.js.",
   "private": false,
   "main": "lib/ndc-custom-ui.umd.min.js",
@@ -59,6 +59,7 @@
     "markdown-it-decorate": "^1.2.2",
     "markdown-it-task-checkbox": "^1.0.6",
     "node-sass": "^4.9.0",
+    "pkg-conf": "^3.1.0",
     "sass-loader": "^7.1.0",
     "shelljs": "^0.8.3",
     "signale": "^1.4.0",

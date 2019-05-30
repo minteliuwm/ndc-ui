@@ -1,7 +1,7 @@
 /* eslint-disable */
 // This file is auto gererated by build/build-entry.js
     import Button from './button'
-    const version = '0.1.5'
+    const version = '0.1.7'
     const components = [
       Button
     ]
