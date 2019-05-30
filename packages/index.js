@@ -2,7 +2,7 @@
 // This file is auto gererated by build/build-entry.js
     import Button from './button'
 import Icon from './icon'
-    const version = '0.1.7'
+    const version = '0.1.8'
     const components = [
       Button,
   Icon
