@@ -6,7 +6,7 @@ import Clipboard from './clipboard'
 import Icon from './icon'
 import Message from './message'
 import Modal from './modal'
-    const version = '0.1.8'
+    const version = '0.1.9'
     const components = [
       Breadcrumb,
   Button,
