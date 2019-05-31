@@ -1,10 +1,14 @@
 /* eslint-disable */
 // This file is auto gererated by build/build-entry.js
-    import Button from './button'
+    import Breadcrumb from './breadcrumb'
+import Button from './button'
+import Clipboard from './clipboard'
 import Icon from './icon'
     const version = '0.1.8'
     const components = [
-      Button,
+      Breadcrumb,
+  Button,
+  Clipboard,
   Icon
     ]
     const install = Vue => {
@@ -19,7 +23,9 @@ import Icon from './icon'
     export {
       install,
       version,
-      Button,
+      Breadcrumb,
+  Button,
+  Clipboard,
   Icon
     }
     export default {

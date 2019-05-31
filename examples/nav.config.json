@@ -23,5 +23,13 @@
     "desc": "Icon 图标",
     "name": "icon",
     "path": "/icon"
+  }, {
+    "desc": "Breadcrumb 面包屑",
+    "name": "breadcrumb",
+    "path": "/breadcrumb"
+  }, {
+    "desc": "Clipboard 剪贴板",
+    "name": "clipboard",
+    "path": "/clipboard"
   }]
 }

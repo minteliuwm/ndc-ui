@@ -10,8 +10,13 @@ module.exports = md => {
       if (tokens[idx].nesting === 1) {
         const description = m && m.length > 1 ? m[1] : '';
         const content = tokens[idx + 1].type === 'fence' ? tokens[idx + 1].content : '';
+        if (description) {
+          return `<demo-block>
+            <div>${md.render(description)}</div>
+            <!--ndc-demo: ${content}:ndc-demo-->
+          `;
+        }
         return `<demo-block>
-          <div>${md.render(description)}</div>
           <!--ndc-demo: ${content}:ndc-demo-->
         `;
       }

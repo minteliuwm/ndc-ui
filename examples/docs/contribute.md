@@ -29,9 +29,11 @@ npm run dev:style
 
 请按照 `packages` 目录下的文件夹结构添加新的组件，如需新的样式请在 `packages/theme-chalk/src` 添加。
 
-### 添加组件示例和文档
+> tips: 添加新组件后，需执行 npm run build:entry 后，才能在本地使用
 
-请在 `examples/demos` 目录下添加新的组件示例。如需添加文档，请在 `examples/docs` 下添加新的文档，同时要在 `nav.config.json` 中添加新的路由才能预览。
+### 添加组件文档
+
+如需添加文档，请在 `examples/docs` 下添加新的文档，同时要在 `nav.config.json` 中添加新的路由才能预览。
 
 ### 发布NPM包和文档
 

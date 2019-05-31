@@ -1,0 +1,15 @@
+.ndc-breadcrumb {
+  display: flex;
+	align-items: center;
+	margin-bottom: 16px;
+	&-icon {
+    font-size: 20px;
+		cursor: pointer;
+	}
+	&-title {
+		margin-left: 8px;
+		font-size: 14px;
+		line-height: 20px;
+		color: #555;
+	}
+}

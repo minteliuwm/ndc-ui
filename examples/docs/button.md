@@ -43,6 +43,11 @@
 ### Attributes
 | 参数      | 说明    | 类型      | 可选值       | 默认值   |
 |---------- |-------- |---------- |-------------  |-------- |
-| theme     | 类型   | string    |   primary / active / default |     default    |
+| theme     | 按钮风格   | string    |   primary / active / default |     default    |
 | disabled  | 是否禁用状态    | boolean   | —   | false   |
 | icon  | 图标类名 | string   |  —  |  —  |
+
+### Events
+| 方法名 | 说明 | 参数 |
+| ------ | ------- | ------- |
+| click | 按钮被点击时触发 | (event: Event) |
