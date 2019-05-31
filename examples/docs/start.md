@@ -11,6 +11,8 @@
 npm install ndc-custom-ui --save
 ```
 
+<br />
+
 ### 全局组件使用
 
 ```js
@@ -27,12 +29,14 @@ import 'ndc-custom-ui/lib/theme-chalk/index.css'
 Vue.use(NdcComponents)
 ```
 
+<br />
+
 ### 单个组件按需使用
 
 可以局部注册所需的组件，适用于与其他框架组合使用的场景
 
 ```js
-import { Button } from 'NdcComponents'
+import { Button } from NdcComponents
 Vue.use(Button)
 ```
 

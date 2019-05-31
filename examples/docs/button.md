@@ -17,6 +17,8 @@
 ```
 :::
 
+<br />
+
 ### 禁用状态
 
 按钮不可用状态。
@@ -27,6 +29,8 @@
 <ndc-button disabled>禁用按钮</ndc-button>
 ```
 :::
+
+<br />
 
 ### 图标按钮
 
@@ -40,12 +44,16 @@
 ```
 :::
 
+<br />
+
 ### Attributes
 | 参数      | 说明    | 类型      | 可选值       | 默认值   |
 |---------- |-------- |---------- |-------------  |-------- |
 | theme     | 按钮风格   | string    |   primary / active / default |     default    |
 | disabled  | 是否禁用状态    | boolean   | —   | false   |
 | icon  | 图标类名 | string   |  —  |  —  |
+
+<br />
 
 ### Events
 | 方法名 | 说明 | 参数 |

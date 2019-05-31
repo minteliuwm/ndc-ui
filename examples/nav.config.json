@@ -31,5 +31,13 @@
     "desc": "Clipboard 剪贴板",
     "name": "clipboard",
     "path": "/clipboard"
+  }, {
+    "desc": "Modal 弹窗",
+    "name": "modal",
+    "path": "/modal"
+  }, {
+    "desc": "Message 消息提示",
+    "name": "message",
+    "path": "/message"
   }]
 }

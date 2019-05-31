@@ -4,17 +4,22 @@
 import Button from './button'
 import Clipboard from './clipboard'
 import Icon from './icon'
+import Message from './message'
+import Modal from './modal'
     const version = '0.1.8'
     const components = [
       Breadcrumb,
   Button,
   Clipboard,
-  Icon
+  Icon,
+  Modal
     ]
     const install = Vue => {
       components.forEach(Component => {
         Vue.use(Component)
       })
+
+      Vue.prototype.$message = Message
     };
     /* istanbul ignore if */
     if (typeof window !== 'undefined' && window.Vue) {
@@ -26,7 +31,9 @@ import Icon from './icon'
       Breadcrumb,
   Button,
   Clipboard,
-  Icon
+  Icon,
+  Message,
+  Modal
     }
     export default {
       install,

@@ -22,8 +22,9 @@ npm run dev:style
 
 ```
 
-
 浏览器访问 [http://localhost:8080](http://localhost:8080) 就可以看到所有组件的示例了
+
+<br />
 
 ### 添加新组件和样式
 
@@ -31,9 +32,13 @@ npm run dev:style
 
 > tips: 添加新组件后，需执行 npm run build:entry 后，才能在本地使用
 
+<br />
+
 ### 添加组件文档
 
 如需添加文档，请在 `examples/docs` 下添加新的文档，同时要在 `nav.config.json` 中添加新的路由才能预览。
+
+<br />
 
 ### 发布NPM包和文档
 
@@ -47,6 +52,7 @@ npm run publish:docs
 
 具体执行命令，可查看对应脚本。
 
+<br />
 
 ### 生成CHANGELOG
 

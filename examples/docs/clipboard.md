@@ -10,9 +10,21 @@
 
 :::demo 使用`text`属性来定义需要复制的文案。
 ```html
-<ndc-clipboard text="这是一段复制出来的话"></ndc-clipboard>
+<ndc-clipboard text="这是一段复制出来的话" @success="success"></ndc-clipboard>
+
+<script>
+export default {
+  methods: {
+    success() {
+      this.$message.success('复制成功');
+    }
+  }
+};
+</script>
 ```
 :::
+
+<br />
 
 ### 自定义展示内容
 
@@ -20,14 +32,28 @@
 
 :::demo
 ```html
-<ndc-clipboard text="这是另外一段复制出来的话">点击我复制</ndc-clipboard>
+<ndc-clipboard text="这是另外一段复制出来的话" @success="success">点击我复制</ndc-clipboard>
+
+<script>
+export default {
+  methods: {
+    success() {
+      this.$message.success('已复制');
+    }
+  }
+};
+</script>
 ```
 :::
+
+<br />
 
 ### Attributes
 | 参数      | 说明    | 类型      | 可选值       | 默认值   |
 |---------- |-------- |---------- |-------------  |-------- |
 | text     | 复制出来的文案   | string    |  -  |   -  |
+
+<br />
 
 ### Events
 | 方法名 | 说明 | 参数 |

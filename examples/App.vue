@@ -5,13 +5,12 @@
       <page-nav class="nav"></page-nav>
       <router-view class="view"></router-view>
     </div>
-    <page-footer></page-footer>
+    <!-- <page-footer></page-footer> -->
   </div>
 </template>
 
 <script>
 import PageHeader from './components/header.vue';
-import PageFooter from './components/footer.vue';
 import PageNav from './components/nav.vue';
 import router from './router';
 
@@ -19,7 +18,6 @@ export default {
   name: 'app',
   components: {
     PageHeader,
-    PageFooter,
     PageNav
   },
   mounted () {

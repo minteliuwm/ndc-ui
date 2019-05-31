@@ -18,7 +18,6 @@
     <div
       class="demo-block-control"
       ref="control"
-      :class="{ 'is-fixed': fixedControl }"
       @click="isExpanded = !isExpanded"
     >
       <span>{{ controlText }}</span>
@@ -32,20 +31,8 @@ export default {
     return {
       hovering: false,
       isExpanded: false,
-      fixedControl: false,
       scrollParent: null
     };
-  },
-  methods: {
-    scrollHandler() {
-      const { top, bottom, left } = this.$refs.meta.getBoundingClientRect();
-      this.fixedControl = bottom > document.documentElement.clientHeight &&
-          top + 44 <= document.documentElement.clientHeight;
-      this.$refs.control.style.left = this.fixedControl ? `${left}px` : '0';
-    },
-    removeScrollHandler() {
-      this.scrollParent && this.scrollParent.removeEventListener('scroll', this.scrollHandler);
-    }
   },
   computed: {
     blockClass() {
@@ -68,17 +55,6 @@ export default {
   watch: {
     isExpanded(val) {
       this.codeArea.style.height = val ? `${this.codeAreaHeight + 1}px` : '0';
-      if (!val) {
-        this.fixedControl = false;
-        this.$refs.control.style.left = '0';
-        this.removeScrollHandler();
-        return;
-      }
-      setTimeout(() => {
-        this.scrollParent = document.querySelector('.page-component__scroll > .el-scrollbar__wrap');
-        this.scrollParent && this.scrollParent.addEventListener('scroll', this.scrollHandler);
-        this.scrollHandler();
-      }, 200);
     }
   },
   mounted() {
@@ -89,9 +65,6 @@ export default {
         highlight.borderRight = 'none';
       }
     });
-  },
-  beforeDestroy() {
-    this.removeScrollHandler();
   }
 };
 </script>

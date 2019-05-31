@@ -1,0 +1,74 @@
+.ndc-message-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ndc-message {
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  padding: 5px 16px;
+  border-radius: 4px;
+  background-color: #fff;
+	border: 1px solid #d8e2f0;
+	font-size: 14px;
+  line-height: 24px;
+  margin-top: 16px;
+  pointer-events: initial;
+  &.center {
+    justify-content: center;
+    .ndc-message-content {
+      flex: initial;
+    }
+  }
+  &-success {
+		background: #e5faf3;
+		border: 1px solid #5cd6ad;
+		color: #3c9;
+	}
+	&-error {
+		background: #ffeeee;
+		border: 1px solid #ed8888;
+		color: #e65c5c;
+	}
+	&-warning {
+		background: #fef7ec;
+		border: 1px solid #f6c460;
+		color: #f3b230;
+  }
+  &-content {
+    flex: 1;
+  }
+	&-info {
+		background: #effaff;
+		border: 1px solid #a3d3eb;
+		color: #309ce4;
+  }
+  &-icon {
+		font-size: 20px;
+		margin-right: 16px;
+  }
+  &-close {
+    font-size: 14px;
+    margin-left: 16px;
+    cursor: pointer;
+  }
+}
+
+.ndc-message-fade-enter-active {
+  transition: all .3s ease;
+}
+.ndc-message-fade-leave-active {
+  transition: all .3s ease;
+}
+.ndc-message-fade-enter, .ndc-message-fade-leave-to {
+  transform: translateY(-50%);
+  opacity: 0;
+}

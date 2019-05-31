@@ -1,9 +1,6 @@
 
 <template>
-  <header
-    class="page-header"
-    :style="$route.name === 'index' ? 'box-shadow:none' : 'box-shadow:0 10px 60px 0 rgba(29,29,31,0.07)'"
-  >
+  <header class="page-header">
     <div class="page-header-container">
       <a href="https://github.com/minteliuwm/ndc-ui" target="__blank">
         <span class="name">NDC UI</span>
@@ -15,7 +12,7 @@
 <style lang="scss">
 .page-header {
   background-color: #fff;
-  box-shadow: 0 10px 60px 0 rgba(29, 29, 31, 0.07);
+  border-bottom: 1px solid #eee;
   opacity: 0.98;
   position: relative;
   top: 0;

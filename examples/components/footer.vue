@@ -28,7 +28,6 @@
   color: #6190e8;
   text-align: center;
   background-color: #fff;
-  box-shadow: 0 4px 30px 0 rgba(223, 225, 230, 0.8);
   &__github-link{
     transition: 0.5s all;
     opacity: 0.5;
