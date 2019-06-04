@@ -3,6 +3,7 @@
     import Breadcrumb from './breadcrumb'
 import Button from './button'
 import Card from './card'
+import Checkbox from './checkbox'
 import Clipboard from './clipboard'
 import Icon from './icon'
 import Message from './message'
@@ -14,6 +15,7 @@ import Searchbox from './searchbox'
       Breadcrumb,
   Button,
   Card,
+  Checkbox,
   Clipboard,
   Icon,
   Modal,
@@ -37,6 +39,7 @@ import Searchbox from './searchbox'
       Breadcrumb,
   Button,
   Card,
+  Checkbox,
   Clipboard,
   Icon,
   Message,

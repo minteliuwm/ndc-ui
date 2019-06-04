@@ -51,5 +51,9 @@
     "desc": "Card 卡片",
     "name": "card",
     "path": "/card"
+  }, {
+    "desc": "Checkbox 复选框",
+    "name": "checkbox",
+    "path": "/checkbox"
   }]
 }
