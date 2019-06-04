@@ -43,5 +43,13 @@
     "desc": "Pagination 分页",
     "name": "pagination",
     "path": "/pagination"
+  }, {
+    "desc": "Searchbox 搜索框",
+    "name": "searchbox",
+    "path": "/searchbox"
+  }, {
+    "desc": "Card 卡片",
+    "name": "card",
+    "path": "/card"
   }]
 }

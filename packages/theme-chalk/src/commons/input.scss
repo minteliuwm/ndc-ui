@@ -1,0 +1,161 @@
+.ndc-input {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 32px;
+	padding: 4px 10px;
+	border: 1px solid #d8e1f0;
+	border-radius: 3px;
+	font-size: 14px;
+	line-height: 32px;
+	color: #666;
+	transition: border-color 0.2s;
+
+	&:hover {
+		border-color: #c4ceda;
+	}
+
+	&:focus {
+		border-color: #388ae4;
+	}
+}
+
+.ndc-input {
+	width: 300px;
+}
+
+::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #ccc;
+}
+
+:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #ccc;
+}
+
+::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #ccc;
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #ccc;
+}
+
+.ndc-input-sm {
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+}
+
+.ndc-input-xxsmw {
+	width: 100px;
+}
+
+.ndc-input-xsmw {
+	width: 135px;
+}
+
+.ndc-input-xsw {
+	width: 120px;
+}
+
+.ndc-input-smw {
+	width: 180px;
+}
+
+.ndc-input-lgw {
+	width: 314px;
+}
+
+.ndc-input-lg {
+	width: 148px;
+	height: 36px;
+	line-height: 36px;
+}
+
+.ndc-input-xl {
+	width: 415px;
+}
+
+.ndc-input-xxl {
+	width: 580px;
+}
+
+.ndc-input-xxxl {
+	width: 700px;
+}
+
+.ndc-input-full {
+	width: 100%;
+}
+
+.ndc-input-flat {
+	border-radius: 0;
+}
+
+.ndc-input-pr {
+	padding-right: 26px;
+}
+
+.ndc-input:disabled,
+.ndc-textarea:disabled,
+.ndc-input.z-dis {
+	background: #fff;
+	border: 1px solid #DAE1F2;
+	border-radius: 2px;
+	color: #999;
+}
+
+.ndc-input-full {
+	width: 100%;
+}
+
+.ndc-input-error {
+	border-color: #f56c6c;
+}
+
+.ndc-textarea {
+	width: 400px;
+	height: 120px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	padding: 5px 10px;
+	border: 1px solid #d8e1f0;
+	border-radius: 4px;
+	font-size: 14px;
+	line-height: 22px;
+	color: #666;
+	transition: border-color 0.2s;
+	resize: none;
+
+	&:hover {
+		border-color: #c4ceda;
+	}
+
+	&:focus {
+		border-color: #388ae4;
+	}
+}
+
+.ndc-textarea.err {
+	border-color: #ff877f !important;
+}
+
+.ndc-textarea.js-invalid {
+	border: 1px solid #ff867f !important;
+}
+
+.ndc-textarea-sm {
+	width: 250px;
+	border-radius: 1px;
+}
+
+.ndc-input-error,
+.ndc-input-error:focus,
+.ndc-input-error:hover {
+	border-color: #f56c6c;
+}
