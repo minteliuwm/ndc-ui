@@ -139,7 +139,7 @@ export default {
       this.$emit('cancel', { sender: this });
       this.hide();
     },
-    hide(isHideFromConfirm) {
+    hide() {
       this.$emit('hide', { sender: this });
     },
     handleClickWrapper(e) {

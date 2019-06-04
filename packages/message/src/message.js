@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import MessageComp from './message.vue';
-let MessageConstructor = Vue.extend(MessageComp);
+
+const MessageConstructor = Vue.extend(MessageComp);
 
 const instances = [];
 let instance;

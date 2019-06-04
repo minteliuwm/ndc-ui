@@ -6,13 +6,15 @@ import Clipboard from './clipboard'
 import Icon from './icon'
 import Message from './message'
 import Modal from './modal'
+import Pagination from './pagination'
     const version = '0.1.9'
     const components = [
       Breadcrumb,
   Button,
   Clipboard,
   Icon,
-  Modal
+  Modal,
+  Pagination
     ]
     const install = Vue => {
       components.forEach(Component => {
@@ -33,7 +35,8 @@ import Modal from './modal'
   Clipboard,
   Icon,
   Message,
-  Modal
+  Modal,
+  Pagination
     }
     export default {
       install,

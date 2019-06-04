@@ -39,5 +39,9 @@
     "desc": "Message 消息提示",
     "name": "message",
     "path": "/message"
+  }, {
+    "desc": "Pagination 分页",
+    "name": "pagination",
+    "path": "/pagination"
   }]
 }
