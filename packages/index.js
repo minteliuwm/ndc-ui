@@ -10,7 +10,7 @@ import Message from './message'
 import Modal from './modal'
 import Pagination from './pagination'
 import Searchbox from './searchbox'
-    const version = '0.1.9'
+    const version = '0.1.10'
     const components = [
       Breadcrumb,
   Button,

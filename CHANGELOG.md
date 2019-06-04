@@ -1,3 +1,14 @@
+## [0.1.10](https://github.com/minteliuwm/ndc-ui/compare/v0.1.9...v0.1.10) (2019-06-04)
+
+
+### Features
+
+* add comps(card && searchbox) ([7239bc8](https://github.com/minteliuwm/ndc-ui/commit/7239bc8))
+* checkbox comp ([5dc972e](https://github.com/minteliuwm/ndc-ui/commit/5dc972e))
+* pagination comp ([7d24bb2](https://github.com/minteliuwm/ndc-ui/commit/7d24bb2))
+
+
+
 ## [0.1.9](https://github.com/minteliuwm/ndc-ui/compare/v0.1.8...v0.1.9) (2019-05-31)
 
 
