@@ -59,5 +59,9 @@
     "desc": "Dropdown 下拉菜单",
     "name": "dropdown",
     "path": "/dropdown"
+  }, {
+    "desc": "VirtualList 虚拟列表",
+    "name": "virtual-list",
+    "path": "/virtual-list"
   }]
 }

@@ -12,6 +12,7 @@ import Message from './message'
 import Modal from './modal'
 import Pagination from './pagination'
 import Searchbox from './searchbox'
+import VirtualList from './virtual-list'
     const version = '0.1.10'
     const components = [
       Breadcrumb,
@@ -24,7 +25,8 @@ import Searchbox from './searchbox'
   Icon,
   Modal,
   Pagination,
-  Searchbox
+  Searchbox,
+  VirtualList
     ]
     const install = Vue => {
       components.forEach(Component => {
@@ -51,7 +53,8 @@ import Searchbox from './searchbox'
   Message,
   Modal,
   Pagination,
-  Searchbox
+  Searchbox,
+  VirtualList
     }
     export default {
       install,
