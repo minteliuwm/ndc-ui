@@ -114,7 +114,7 @@ export default {
 | cancelButton | 取消按钮文案， null 或空不显示 | string | - | 取消 |
 | onConfirm | 确认按钮点击后调用，用该方法后不再触发 hide 事件，可以是一个异步方法，返回 false 不执行默认操作 | function | - | - |
 
-### Slot
+### Slots
 | name    | 说明       |
 | -------- | ------------ |
 | —— | 弹窗的内容 |

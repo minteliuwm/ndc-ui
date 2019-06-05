@@ -55,5 +55,9 @@
     "desc": "Checkbox 复选框",
     "name": "checkbox",
     "path": "/checkbox"
+  }, {
+    "desc": "Dropdown 下拉菜单",
+    "name": "dropdown",
+    "path": "/dropdown"
   }]
 }

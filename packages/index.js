@@ -5,6 +5,8 @@ import Button from './button'
 import Card from './card'
 import Checkbox from './checkbox'
 import Clipboard from './clipboard'
+import Dropdown from './dropdown'
+import DropdownItem from './dropdown-item'
 import Icon from './icon'
 import Message from './message'
 import Modal from './modal'
@@ -17,6 +19,8 @@ import Searchbox from './searchbox'
   Card,
   Checkbox,
   Clipboard,
+  Dropdown,
+  DropdownItem,
   Icon,
   Modal,
   Pagination,
@@ -41,6 +45,8 @@ import Searchbox from './searchbox'
   Card,
   Checkbox,
   Clipboard,
+  Dropdown,
+  DropdownItem,
   Icon,
   Message,
   Modal,

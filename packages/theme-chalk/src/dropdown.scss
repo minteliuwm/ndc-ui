@@ -1,0 +1,33 @@
+.ndc-dropdown {
+  &-target {
+    cursor: pointer;
+  }
+  
+  &-panel {
+    position: fixed;
+    z-index: 30;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(114, 151, 193, 0.4);
+  }
+  
+  &-item {
+    min-width: 84px;
+    padding: 6px 20px;
+    background-color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+    &:hover {
+      background-color: #ecf1f6;
+      color: #303a4f;
+    }
+    .ndc-icon-tick {
+      float: right;
+      margin-top: 2px;
+      color: #4e96e9;
+    }
+  }
+}
