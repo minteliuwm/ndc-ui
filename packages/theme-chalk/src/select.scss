@@ -1,0 +1,114 @@
+.ndc-select {
+  position: relative;
+  height: 32px;
+  width: 300px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  box-sizing: border-box;
+  &:hover,
+  &:focus {
+    border-color: #2888fb;
+  }
+  &.disabled {
+    &:hover,
+    &:focus {
+      border-color: #eee;
+    }
+  }
+  &-label {
+    line-height: 30px;
+    height: 100%;
+    width: 100%;
+    padding: 0 40px 0 10px;
+    box-sizing: border-box;
+    color: #333;
+    cursor: pointer;
+    user-select: none;
+    &.disabled {
+      cursor: not-allowed;
+      color: #999;
+    }
+    &.placeholder {
+      color: #999;
+    }
+  }
+  &-input {
+    line-height: 30px;
+    height: 100%;
+    width: 100%;
+    padding: 0 40px 0 10px;
+    box-sizing: border-box;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+  }
+  &-searchbox {
+    line-height: 30px;
+    height: 100%;
+    width: 100%;
+    padding: 0 40px 0 10px;
+    box-sizing: border-box;
+    color: #333;
+    cursor: pointer;
+    &.disabled {
+      cursor: not-allowed;
+    }
+    &.placeholder {
+      color: #999;
+    }
+  }
+  &-down {
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    &:before {
+      color: #999;
+    }
+  }
+  &-clear {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    &:before {
+      color: #999;
+    }
+  }
+  &-panel {
+    position: absolute;
+    z-index: 99;
+    top: 34px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    min-width: 300px;
+    max-height: 400px;
+    overflow: auto;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+  &-option {
+    width: 100%;
+    padding: 0 10px;
+    line-height: 32px;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #fff;
+    &:hover {
+      background-color: #ecf1f6;
+      color: #303a4f;
+    }
+    &.selected {
+      color: #3274e6;
+    }
+  }
+  &-empty {
+    width: 100%;
+    padding: 0 10px;
+    line-height: 32px;
+    box-sizing: border-box;
+    color: #999;
+  }
+}

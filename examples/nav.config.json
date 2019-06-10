@@ -63,5 +63,9 @@
     "desc": "VirtualList 虚拟列表",
     "name": "virtual-list",
     "path": "/virtual-list"
+  }, {
+    "desc": "Select 下拉选择",
+    "name": "select",
+    "path": "/select"
   }]
 }

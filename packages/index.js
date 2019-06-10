@@ -12,6 +12,7 @@ import Message from './message'
 import Modal from './modal'
 import Pagination from './pagination'
 import Searchbox from './searchbox'
+import Select from './select'
 import VirtualList from './virtual-list'
     const version = '0.1.10'
     const components = [
@@ -26,6 +27,7 @@ import VirtualList from './virtual-list'
   Modal,
   Pagination,
   Searchbox,
+  Select,
   VirtualList
     ]
     const install = Vue => {
@@ -54,6 +56,7 @@ import VirtualList from './virtual-list'
   Modal,
   Pagination,
   Searchbox,
+  Select,
   VirtualList
     }
     export default {
