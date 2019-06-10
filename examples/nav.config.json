@@ -67,5 +67,9 @@
     "desc": "Select 下拉选择",
     "name": "select",
     "path": "/select"
+  }, {
+    "desc": "Timer 计时器",
+    "name": "timer",
+    "path": "/timer"
   }]
 }
