@@ -1,3 +1,15 @@
+## [0.1.11](https://github.com/minteliuwm/ndc-ui/compare/v0.1.10...v0.1.11) (2019-06-10)
+
+
+### Features
+
+* dropdown comp ([32d2f5c](https://github.com/minteliuwm/ndc-ui/commit/32d2f5c))
+* select comp ([1117a84](https://github.com/minteliuwm/ndc-ui/commit/1117a84))
+* timer comp ([db0e419](https://github.com/minteliuwm/ndc-ui/commit/db0e419))
+* VirtualList comp ([7f55c44](https://github.com/minteliuwm/ndc-ui/commit/7f55c44))
+
+
+
 ## [0.1.10](https://github.com/minteliuwm/ndc-ui/compare/v0.1.9...v0.1.10) (2019-06-04)
 
 

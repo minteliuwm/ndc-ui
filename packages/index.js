@@ -15,7 +15,7 @@ import Searchbox from './searchbox'
 import Select from './select'
 import Timer from './timer'
 import VirtualList from './virtual-list'
-    const version = '0.1.10'
+    const version = '0.1.11'
     const components = [
       Breadcrumb,
   Button,
