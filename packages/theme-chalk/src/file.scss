@@ -1,0 +1,8 @@
+.ndc-file {
+  display: inline-block;
+  &-input {
+    position: fixed;
+    top: -9999px;
+    left: -9999px;
+  }
+}

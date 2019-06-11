@@ -79,5 +79,9 @@
     "desc": "Tooltip 文字提示",
     "name": "tooltip",
     "path": "/tooltip"
+  }, {
+    "desc": "File 文件上传",
+    "name": "file",
+    "path": "/file"
   }]
 }

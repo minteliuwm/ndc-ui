@@ -7,6 +7,7 @@ import Checkbox from './checkbox'
 import Clipboard from './clipboard'
 import Dropdown from './dropdown'
 import DropdownItem from './dropdown-item'
+import File from './file'
 import Icon from './icon'
 import Message from './message'
 import Modal from './modal'
@@ -26,6 +27,7 @@ import VirtualList from './virtual-list'
   Clipboard,
   Dropdown,
   DropdownItem,
+  File,
   Icon,
   Modal,
   Pagination,
@@ -57,6 +59,7 @@ import VirtualList from './virtual-list'
   Clipboard,
   Dropdown,
   DropdownItem,
+  File,
   Icon,
   Message,
   Modal,
