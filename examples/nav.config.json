@@ -75,5 +75,9 @@
     "desc": "Progress 进度条",
     "name": "progress",
     "path": "/progress"
+  }, {
+    "desc": "Tooltip 文字提示",
+    "name": "tooltip",
+    "path": "/tooltip"
   }]
 }

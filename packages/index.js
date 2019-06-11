@@ -15,6 +15,7 @@ import Progress from './progress'
 import Searchbox from './searchbox'
 import Select from './select'
 import Timer from './timer'
+import Tooltip from './tooltip'
 import VirtualList from './virtual-list'
     const version = '0.1.11'
     const components = [
@@ -32,6 +33,7 @@ import VirtualList from './virtual-list'
   Searchbox,
   Select,
   Timer,
+  Tooltip,
   VirtualList
     ]
     const install = Vue => {
@@ -63,6 +65,7 @@ import VirtualList from './virtual-list'
   Searchbox,
   Select,
   Timer,
+  Tooltip,
   VirtualList
     }
     export default {
