@@ -71,5 +71,9 @@
     "desc": "Timer 计时器",
     "name": "timer",
     "path": "/timer"
+  }, {
+    "desc": "Progress 进度条",
+    "name": "progress",
+    "path": "/progress"
   }]
 }

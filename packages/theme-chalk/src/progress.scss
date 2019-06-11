@@ -1,0 +1,24 @@
+.ndc-progress {
+  &-wrapper {
+    width: 100%;
+    min-width: 50px;
+    background-color: #ecf1f6;
+    overflow: hidden;
+  }
+  &-bar {
+    width: 0;
+    height: 100%;
+    transition: width 0.6s ease;
+  }
+  &-text {
+    color: #333;
+    font-size: 12px;
+    line-height: 12px;
+    margin-left: 4px;
+    text-align: center;
+    &.inside {
+      color: #fff;
+      margin-left: 0;
+    }
+  }
+}

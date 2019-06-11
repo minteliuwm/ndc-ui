@@ -11,6 +11,7 @@ import Icon from './icon'
 import Message from './message'
 import Modal from './modal'
 import Pagination from './pagination'
+import Progress from './progress'
 import Searchbox from './searchbox'
 import Select from './select'
 import Timer from './timer'
@@ -27,6 +28,7 @@ import VirtualList from './virtual-list'
   Icon,
   Modal,
   Pagination,
+  Progress,
   Searchbox,
   Select,
   Timer,
@@ -57,6 +59,7 @@ import VirtualList from './virtual-list'
   Message,
   Modal,
   Pagination,
+  Progress,
   Searchbox,
   Select,
   Timer,
