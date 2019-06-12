@@ -24,13 +24,9 @@
     "name": "icon",
     "path": "/icon"
   }, {
-    "desc": "Breadcrumb 面包屑",
-    "name": "breadcrumb",
-    "path": "/breadcrumb"
-  }, {
-    "desc": "Clipboard 剪贴板",
-    "name": "clipboard",
-    "path": "/clipboard"
+    "desc": "Card 卡片",
+    "name": "card",
+    "path": "/card"
   }, {
     "desc": "Modal 弹窗",
     "name": "modal",
@@ -40,17 +36,9 @@
     "name": "message",
     "path": "/message"
   }, {
-    "desc": "Pagination 分页",
-    "name": "pagination",
-    "path": "/pagination"
-  }, {
     "desc": "Searchbox 搜索框",
     "name": "searchbox",
     "path": "/searchbox"
-  }, {
-    "desc": "Card 卡片",
-    "name": "card",
-    "path": "/card"
   }, {
     "desc": "Checkbox 复选框",
     "name": "checkbox",
@@ -60,13 +48,29 @@
     "name": "dropdown",
     "path": "/dropdown"
   }, {
+    "desc": "Select 下拉选择",
+    "name": "select",
+    "path": "/select"
+  }, {
+    "desc": "ContextMenu 上下文菜单",
+    "name": "context-menu",
+    "path": "/context-menu"
+  }, {
     "desc": "VirtualList 虚拟列表",
     "name": "virtual-list",
     "path": "/virtual-list"
   }, {
-    "desc": "Select 下拉选择",
-    "name": "select",
-    "path": "/select"
+    "desc": "Pagination 分页",
+    "name": "pagination",
+    "path": "/pagination"
+  }, {
+    "desc": "Breadcrumb 面包屑",
+    "name": "breadcrumb",
+    "path": "/breadcrumb"
+  }, {
+    "desc": "Clipboard 剪贴板",
+    "name": "clipboard",
+    "path": "/clipboard"
   }, {
     "desc": "Timer 计时器",
     "name": "timer",
@@ -83,9 +87,5 @@
     "desc": "File 文件上传",
     "name": "file",
     "path": "/file"
-  }, {
-    "desc": "ContextMenu 上下文菜单",
-    "name": "context-menu",
-    "path": "/context-menu"
   }]
 }

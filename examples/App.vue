@@ -50,7 +50,7 @@ export default {
     background-color: #fff;
     .nav {
       overflow-y: auto;
-      width: 210px;
+      width: 240px;
     }
     .view {
       overflow-y: auto;
