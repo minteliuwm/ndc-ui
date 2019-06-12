@@ -83,5 +83,9 @@
     "desc": "File 文件上传",
     "name": "file",
     "path": "/file"
+  }, {
+    "desc": "ContextMenu 上下文菜单",
+    "name": "context-menu",
+    "path": "/context-menu"
   }]
 }

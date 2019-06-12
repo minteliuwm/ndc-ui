@@ -1,0 +1,30 @@
+.ndc-context-menu {
+  position: fixed;
+  z-index: 30;
+  padding: 6px 0;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(114, 151, 193, 0.4);
+  .item {
+    min-width: 128px;
+    padding: 6px 12px;
+    background-color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    &:hover {
+      background-color: #ecf1f6;
+      color: #303a4f;
+    }
+    &.disabled {
+      opacity: 0.3;
+      pointer-events: none;
+    }
+  }
+  .line {
+    height: 1px;
+    margin: 6px 0;
+    border: 0;
+    background-color: #eee;
+  }
+}

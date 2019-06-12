@@ -5,6 +5,7 @@ import Button from './button'
 import Card from './card'
 import Checkbox from './checkbox'
 import Clipboard from './clipboard'
+import ContextMenu from './context-menu'
 import Dropdown from './dropdown'
 import DropdownItem from './dropdown-item'
 import File from './file'
@@ -25,6 +26,7 @@ import VirtualList from './virtual-list'
   Card,
   Checkbox,
   Clipboard,
+  ContextMenu,
   Dropdown,
   DropdownItem,
   File,
@@ -57,6 +59,7 @@ import VirtualList from './virtual-list'
   Card,
   Checkbox,
   Clipboard,
+  ContextMenu,
   Dropdown,
   DropdownItem,
   File,
