@@ -1,3 +1,16 @@
+## [0.1.12](https://github.com/minteliuwm/ndc-ui/compare/v0.1.11...v0.1.12) (2019-06-12)
+
+
+### Features
+
+* ContextMenu Comp ([5038e42](https://github.com/minteliuwm/ndc-ui/commit/5038e42))
+* file comp ([1104b44](https://github.com/minteliuwm/ndc-ui/commit/1104b44))
+* Modify Nav Order ([edd2e17](https://github.com/minteliuwm/ndc-ui/commit/edd2e17))
+* progress comp ([93c6085](https://github.com/minteliuwm/ndc-ui/commit/93c6085))
+* tooltip comp ([4fc29de](https://github.com/minteliuwm/ndc-ui/commit/4fc29de))
+
+
+
 ## [0.1.11](https://github.com/minteliuwm/ndc-ui/compare/v0.1.10...v0.1.11) (2019-06-10)
 
 
