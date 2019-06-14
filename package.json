@@ -3,8 +3,7 @@
   "version": "0.1.14",
   "description": "A Component Library for Vue.js.",
   "private": false,
-  "main": "lib/ndc-custom-ui.umd.min.js",
-  "style": "lib/ndc-custom-ui.css",
+  "main": "lib/ndc-custom-ui.common.js",
   "files": [
     "lib",
     "packages"
