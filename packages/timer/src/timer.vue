@@ -5,8 +5,6 @@
 </template>
 
 <script>
-import moment from 'moment';
-
 export default {
   name: 'NdcTimer',
   props: {
@@ -46,10 +44,11 @@ export default {
   },
   computed: {
     timeText() {
-      const duration = moment.duration(this.time);
-      const hour = duration.hours();
-      const minute = duration.minutes();
-      const second = duration.seconds();
+      const t = Number(this.time);
+      const second = Math.floor((t / 1000) % 60);
+      const minute = Math.floor((t / 1000 / 60) % 60);
+      const hour = Math.floor((t / (1000 * 60 * 60)) % 24);
+
       return (`${hour > 9 ? hour + ':' : hour ? '0' + hour + ':' : ''}` + `${('0' + minute).slice(-2)}:${('0' + second).slice(-2)}`);
     }
   },
