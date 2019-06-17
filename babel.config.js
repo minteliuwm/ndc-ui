@@ -5,7 +5,7 @@ module.exports = {
   plugins: [
     ['component', {
       'libraryName': 'ndc-custom-ui',
-      'libDir': 'lib'
+      'libDir': 'packages'
     }]
   ]
 };
