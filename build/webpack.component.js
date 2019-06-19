@@ -16,7 +16,7 @@ const webpackConfig = {
     publicPath: '/dist/',
     filename: '[name].js',
     chunkFilename: '[id].js',
-    libraryTarget: 'commonjs'
+    libraryTarget: 'umd'
   },
   resolve: {
     extensions: ['.js', '.vue', '.json'],
