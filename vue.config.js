@@ -15,6 +15,7 @@ module.exports = {
     }
   },
   chainWebpack: config => {
+    config.resolve.symlinks(false);
     config.resolve.alias.set('@', resolve('examples'));
     config.module
       .rule('md')

@@ -16,11 +16,12 @@ const webpackConfig = {
     publicPath: '/dist/',
     filename: '[name].js',
     chunkFilename: '[id].js',
-    libraryTarget: 'umd'
+    libraryTarget: 'commonjs2'
   },
   resolve: {
     extensions: ['.js', '.vue', '.json'],
-    modules: ['node_modules']
+    modules: ['node_modules'],
+    symlinks: false
   },
   performance: {
     hints: false
