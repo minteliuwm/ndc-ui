@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/minteliuwm/ndc-ui/compare/v0.2.1...v0.2.2) (2019-06-19)
+
+
+### Bug Fixes
+
+* webpack symlinks ([4b88e3b](https://github.com/minteliuwm/ndc-ui/commit/4b88e3b))
+
+
+
 ## [0.2.1](https://github.com/minteliuwm/ndc-ui/compare/v0.2.0...v0.2.1) (2019-06-19)
 
 

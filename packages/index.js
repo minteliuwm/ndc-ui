@@ -19,7 +19,7 @@ import Select from './select'
 import Timer from './timer'
 import Tooltip from './tooltip'
 import VirtualList from './virtual-list'
-    const version = '0.2.1'
+    const version = '0.2.2'
     const components = [
       Breadcrumb,
   Button,
