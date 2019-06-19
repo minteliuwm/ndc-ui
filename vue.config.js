@@ -6,6 +6,7 @@ const resolve = (dir) => {
 
 module.exports = {
   publicPath: './',
+  productionSourceMap: false,
   pages: {
     index: {
       entry: 'examples/main.js',

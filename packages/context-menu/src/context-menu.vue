@@ -38,7 +38,6 @@ export default {
   methods: {
     open(event) {
       if (!event) {
-        console.warn('Open method is missing event object.');
         return;
       }
       this.visible = true;
