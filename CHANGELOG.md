@@ -1,3 +1,17 @@
+## [0.1.18](https://github.com/minteliuwm/ndc-ui/compare/v0.1.17...v0.1.18) (2019-06-19)
+
+
+### Features
+
+* build component ([b37ad6d](https://github.com/minteliuwm/ndc-ui/commit/b37ad6d))
+
+
+### Performance Improvements
+
+* remove moment ([bdd9ae5](https://github.com/minteliuwm/ndc-ui/commit/bdd9ae5))
+
+
+
 ## [0.1.17](https://github.com/minteliuwm/ndc-ui/compare/v0.1.16...v0.1.17) (2019-06-17)
 
 
