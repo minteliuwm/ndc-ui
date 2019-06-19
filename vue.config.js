@@ -14,9 +14,15 @@ module.exports = {
       filename: 'index.html'
     }
   },
+  configureWebpack: {
+    resolve: {
+      symlinks: false,
+      alias: {
+        '@': resolve('examples')
+      }
+    }
+  },
   chainWebpack: config => {
-    config.resolve.symlinks(false);
-    config.resolve.alias.set('@', resolve('examples'));
     config.module
       .rule('md')
       .test(/\.md/)
