@@ -19,8 +19,7 @@ const webpackConfig = {
     libraryTarget: 'umd'
   },
   resolve: {
-    extensions: ['.js', '.vue', '.json'],
-    symlinks: false
+    extensions: ['.js', '.vue', '.json']
   },
   performance: {
     hints: false

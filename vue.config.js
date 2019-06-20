@@ -16,7 +16,6 @@ module.exports = {
   },
   configureWebpack: {
     resolve: {
-      symlinks: false,
       alias: {
         '@': resolve('examples')
       }
