@@ -20,7 +20,6 @@ const webpackConfig = {
   },
   resolve: {
     extensions: ['.js', '.vue', '.json'],
-    modules: ['node_modules'],
     symlinks: false
   },
   performance: {
@@ -32,17 +31,12 @@ const webpackConfig = {
   },
   module: {
     rules: [{
-      test: /\.(jsx?|babel|es6)$/,
-      include: process.cwd(),
-      loader: 'babel-loader'
+      test: /\.js$/,
+      loader: 'babel-loader',
+      exclude: /node_modules/
     }, {
       test: /\.vue$/,
-      loader: 'vue-loader',
-      options: {
-        compilerOptions: {
-          preserveWhitespace: false
-        }
-      }
+      loader: 'vue-loader'
     }]
   },
   plugins: [

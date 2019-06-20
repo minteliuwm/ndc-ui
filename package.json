@@ -1,6 +1,6 @@
 {
   "name": "ndc-custom-ui",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "A Component Library for Vue.js.",
   "private": false,
   "main": "lib/ndc-custom-ui.umd.js",
