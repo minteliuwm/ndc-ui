@@ -1,3 +1,14 @@
+
+![](https://img.shields.io/bundlephobia/min/ndc-custom-ui.svg)
+
+![](https://img.shields.io/npm/dw/ndc-custom-ui.svg)
+
+![](https://img.shields.io/npm/v/ndc-custom-ui.svg)
+
+![](https://img.shields.io/github/package-json/v/minteliuwm/ndc-ui.svg)
+
+![](https://img.shields.io/npm/l/ndc-custom-ui.svg)
+
 # 安装
 
 ## NPM
