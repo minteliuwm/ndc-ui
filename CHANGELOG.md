@@ -1,3 +1,12 @@
+## [0.2.8](https://github.com/minteliuwm/ndc-ui/compare/v0.2.7...v0.2.8) (2019-06-25)
+
+
+### Features
+
+* add table comp ([4bed02c](https://github.com/minteliuwm/ndc-ui/commit/4bed02c))
+
+
+
 ## [0.2.7](https://github.com/minteliuwm/ndc-ui/compare/v0.2.6...v0.2.7) (2019-06-20)
 
 

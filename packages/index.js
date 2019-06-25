@@ -24,7 +24,7 @@ import TableOrder from './table-order'
 import Timer from './timer'
 import Tooltip from './tooltip'
 import VirtualList from './virtual-list'
-    const version = '0.2.7'
+    const version = '0.2.8'
     const components = [
       Breadcrumb,
   Button,
