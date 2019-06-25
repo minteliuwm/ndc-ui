@@ -60,6 +60,10 @@
     "name": "virtual-list",
     "path": "/virtual-list"
   }, {
+    "desc": "Table 表格",
+    "name": "table",
+    "path": "/table"
+  }, {
     "desc": "Pagination 分页",
     "name": "pagination",
     "path": "/pagination"
