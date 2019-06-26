@@ -1,5 +1,5 @@
 <template>
-  <div class="ndc-table-head">
+  <div class="ndc-table-header">
     <table>
       <thead>
         <tr>

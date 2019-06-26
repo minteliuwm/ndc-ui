@@ -305,6 +305,74 @@ export default {
 
 <br />
 
+### 固定表头
+
+支持表头的固定。
+
+:::demo
+```html
+<ndc-table style="height: 150px;" :columns="columns" :data="tableData" :header-fixed="true"></ndc-table>
+
+<script>
+export default {
+  data() {
+    return {
+      columns: [{
+        name: 'id',
+        width: '20%',
+        title: '任务ID'
+      }, {
+        name: 'name',
+        width: '30%',
+        title: '任务名称'
+      }, {
+        name: 'status',
+        width: '20%',
+        title: '状态'
+      }, {
+        name: 'progress',
+        title: '进度'
+      }],
+      tableData: [{
+        id: 1,
+        name: 'kudu',
+        status: '运行中',
+        progress: '100%'
+      }, {
+        id: 2,
+        name: 'hive',
+        status: '停止',
+        progress: '无'
+      }, {
+        id: 3,
+        name: 'test',
+        status: '初始化',
+        progress: '100%'
+      }, {
+        id: 4,
+        name: 'test2',
+        status: '初始化',
+        progress: '100%'
+      }, {
+        id: 5,
+        name: 'test3',
+        status: '初始化',
+        progress: '100%'
+      }, {
+        id: 6,
+        name: 'test4',
+        status: '初始化',
+        progress: '100%'
+      }]
+    };
+  }
+};
+</script>
+```
+:::
+
+<br />
+
 ### 自定义表格内容
 
 表格内容支持自定义。
@@ -379,6 +447,7 @@ export default {
 | rowKey | 每一行的唯一值 | string | — | — |
 | filterValue | 筛选列的值 | object | — | — |
 | filterParse | 筛选列选项的解析方法 | function | — | (item) => item.title |
+| headerFixed | 是否固定表头 | boolean | — | false |
 | emptyText | 没有数据时显示的内容 | string | — | 暂无数据 |
 
 <br />

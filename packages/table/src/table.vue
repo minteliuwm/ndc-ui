@@ -1,6 +1,10 @@
 <template>
   <div class="ndc-table">
-    <slot>
+    <div class="ndc-table-fixed" v-if="headerFixed">
+      <table-header :columns="columns" @filter="handleFilter(arguments[0].filter, arguments[0].column)" @order="handleOrder(arguments[0].order, arguments[0].column)"></table-header>
+      <table-body :columns="columns" :data="data"></table-body>
+    </div>
+    <slot v-else>
       <table>
         <slot name="header" v-if="showHeader">
           <thead>
@@ -37,6 +41,8 @@
 </template>
 
 <script>
+import TableHeader from './table-header';
+import TableBody from './table-body';
 import TableFilter from './table-filter';
 import TableOrder from './table-order';
 import TableEmpty from './table-empty';
@@ -44,6 +50,8 @@ import TableEmpty from './table-empty';
 export default {
   name: 'NdcTable',
   components: {
+    TableHeader,
+    TableBody,
     TableFilter,
     TableOrder,
     TableEmpty
@@ -80,6 +88,10 @@ export default {
       default(item) {
         return item.title;
       }
+    },
+    headerFixed: {
+      type: Boolean,
+      default: false
     },
     emptyText: {
       type: String,

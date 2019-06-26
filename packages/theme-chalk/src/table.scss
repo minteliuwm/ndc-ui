@@ -38,6 +38,22 @@
     cursor: default;
   }
 
+  &-fixed {
+    width: 100%;
+    height: 100%;
+  }
+
+  &-header {
+    width: 100%;
+  }
+
+  &-body {
+    width: 100%;
+    height: calc(100% - 42px);
+    overflow-x: hidden;
+    overflow-y: overlay;
+  }
+
 	th,
 	td {
 		box-sizing: border-box;

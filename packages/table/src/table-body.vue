@@ -8,7 +8,7 @@
             }"
           >
             <slot name="td" :row="row" :column="col">
-              {{col.name ? row[col.name] : row[idx]}}
+              {{col.parse ? col.parse(col, row) : (col.name ? row[col.name] : row[idx])}}
             </slot>
           </td>
         </tr>
