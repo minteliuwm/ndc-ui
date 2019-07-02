@@ -72,6 +72,10 @@
     "name": "breadcrumb",
     "path": "/breadcrumb"
   }, {
+    "desc": "Tabs 标签页",
+    "name": "tabs",
+    "path": "/tabs"
+  }, {
     "desc": "Clipboard 剪贴板",
     "name": "clipboard",
     "path": "/clipboard"

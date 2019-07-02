@@ -16,11 +16,13 @@ import Pagination from './pagination'
 import Progress from './progress'
 import Searchbox from './searchbox'
 import Select from './select'
+import TabPanel from './tab-panel'
 import Table from './table'
 import TableEmpty from './table-empty'
 import TableFilter from './table-filter'
 import TableLink from './table-link'
 import TableOrder from './table-order'
+import Tabs from './tabs'
 import Timer from './timer'
 import Tooltip from './tooltip'
 import VirtualList from './virtual-list'
@@ -41,11 +43,13 @@ import VirtualList from './virtual-list'
   Progress,
   Searchbox,
   Select,
+  TabPanel,
   Table,
   TableEmpty,
   TableFilter,
   TableLink,
   TableOrder,
+  Tabs,
   Timer,
   Tooltip,
   VirtualList
@@ -80,11 +84,13 @@ import VirtualList from './virtual-list'
   Progress,
   Searchbox,
   Select,
+  TabPanel,
   Table,
   TableEmpty,
   TableFilter,
   TableLink,
   TableOrder,
+  Tabs,
   Timer,
   Tooltip,
   VirtualList
