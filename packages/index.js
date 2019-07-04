@@ -9,6 +9,8 @@ import ContextMenu from './context-menu'
 import Dropdown from './dropdown'
 import DropdownItem from './dropdown-item'
 import File from './file'
+import Form from './form'
+import FormItem from './form-item'
 import Icon from './icon'
 import Message from './message'
 import Modal from './modal'
@@ -37,6 +39,8 @@ import VirtualList from './virtual-list'
   Dropdown,
   DropdownItem,
   File,
+  Form,
+  FormItem,
   Icon,
   Modal,
   Pagination,
@@ -77,6 +81,8 @@ import VirtualList from './virtual-list'
   Dropdown,
   DropdownItem,
   File,
+  Form,
+  FormItem,
   Icon,
   Message,
   Modal,

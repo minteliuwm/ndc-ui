@@ -40,6 +40,10 @@
     "name": "searchbox",
     "path": "/searchbox"
   }, {
+    "desc": "Form 表单",
+    "name": "form",
+    "path": "/form"
+  }, {
     "desc": "Checkbox 复选框",
     "name": "checkbox",
     "path": "/checkbox"
