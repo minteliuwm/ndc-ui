@@ -1,3 +1,15 @@
+## [0.2.9](https://github.com/minteliuwm/ndc-ui/compare/v0.2.8...v0.2.9) (2019-07-05)
+
+
+### Features
+
+* add form comp ([3b8b6a4](https://github.com/minteliuwm/ndc-ui/commit/3b8b6a4))
+* add validator comp ([11a238c](https://github.com/minteliuwm/ndc-ui/commit/11a238c))
+* table component add a property: fixed header ([b69b544](https://github.com/minteliuwm/ndc-ui/commit/b69b544))
+* tabs comp ([b69f9df](https://github.com/minteliuwm/ndc-ui/commit/b69f9df))
+
+
+
 ## [0.2.8](https://github.com/minteliuwm/ndc-ui/compare/v0.2.7...v0.2.8) (2019-06-25)
 
 
