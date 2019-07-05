@@ -27,6 +27,7 @@ import TableOrder from './table-order'
 import Tabs from './tabs'
 import Timer from './timer'
 import Tooltip from './tooltip'
+import Validator from './validator'
 import VirtualList from './virtual-list'
     const version = '0.2.8'
     const components = [
@@ -56,6 +57,7 @@ import VirtualList from './virtual-list'
   Tabs,
   Timer,
   Tooltip,
+  Validator,
   VirtualList
     ]
     const install = Vue => {
@@ -99,6 +101,7 @@ import VirtualList from './virtual-list'
   Tabs,
   Timer,
   Tooltip,
+  Validator,
   VirtualList
     }
     export default {

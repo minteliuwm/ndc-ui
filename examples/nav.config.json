@@ -44,6 +44,10 @@
     "name": "form",
     "path": "/form"
   }, {
+    "desc": "Validator 校验器",
+    "name": "validator",
+    "path": "/validator"
+  }, {
     "desc": "Checkbox 复选框",
     "name": "checkbox",
     "path": "/checkbox"
