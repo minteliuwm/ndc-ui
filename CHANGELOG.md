@@ -1,3 +1,12 @@
+## [0.2.11](https://github.com/minteliuwm/ndc-ui/compare/v0.2.10...v0.2.11) (2019-07-18)
+
+
+### Bug Fixes
+
+* build error ([f9fa16c](https://github.com/minteliuwm/ndc-ui/commit/f9fa16c))
+
+
+
 ## [0.2.10](https://github.com/minteliuwm/ndc-ui/compare/v0.2.9...v0.2.10) (2019-07-18)
 
 
