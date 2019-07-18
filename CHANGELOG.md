@@ -1,3 +1,7 @@
+## [0.2.12](https://github.com/minteliuwm/ndc-ui/compare/v0.2.11...v0.2.12) (2019-07-18)
+
+
+
 ## [0.2.11](https://github.com/minteliuwm/ndc-ui/compare/v0.2.10...v0.2.11) (2019-07-18)
 
 
