@@ -40,6 +40,27 @@
             z-index: 2;
           }
         }
+        .ndc-icon-close {
+          font-size: 12px;
+          position: absolute;
+          right: 4px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+      &.card {
+        .tab {
+          border-left: 1px solid #e4e7ed;
+          border-top: 1px solid #e4e7ed;
+          &:last-child {
+            border-right: 1px solid #e4e7ed;
+          }
+          &.active {
+            &:after {
+              height: 0;
+            }
+          }
+        }
       }
     }
   }
