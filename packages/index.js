@@ -29,7 +29,7 @@ import Timer from './timer'
 import Tooltip from './tooltip'
 import Validator from './validator'
 import VirtualList from './virtual-list'
-    const version = '0.2.12'
+    const version = '0.3.1'
     const components = [
       Breadcrumb,
   Button,

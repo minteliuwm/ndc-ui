@@ -1,3 +1,12 @@
+## [0.3.1](https://github.com/minteliuwm/ndc-ui/compare/v0.2.12...v0.3.1) (2019-07-18)
+
+
+### Bug Fixes
+
+* supplement scss ([97f02bf](https://github.com/minteliuwm/ndc-ui/commit/97f02bf))
+
+
+
 ## [0.2.12](https://github.com/minteliuwm/ndc-ui/compare/v0.2.11...v0.2.12) (2019-07-18)
 
 
