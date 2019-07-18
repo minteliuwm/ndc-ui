@@ -42,19 +42,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss">
-.u-tableFilter {
-  .u-dropdown {
-    display: inline-block;
-  }
-  .u-dropdown-target {
-    white-space: nowrap;
-  }
-  .filter-select {
-    display: inline-block;
-    max-width: 56px;
-    vertical-align: bottom;
-  }
-}
-</style>
