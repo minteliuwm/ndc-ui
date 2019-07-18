@@ -47,6 +47,7 @@ npm run release
 # 发布文档
 npm run publish:docs
 ```
+> tips: 需要全局安装 gulp, cp-cli, tslib等
 
 具体执行命令，可查看对应脚本。
 
