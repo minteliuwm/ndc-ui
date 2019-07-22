@@ -1,3 +1,12 @@
+## [0.3.2](https://github.com/minteliuwm/ndc-ui/compare/v0.3.1...v0.3.2) (2019-07-22)
+
+
+### Bug Fixes
+
+* select style ([3587735](https://github.com/minteliuwm/ndc-ui/commit/3587735))
+
+
+
 ## [0.3.1](https://github.com/minteliuwm/ndc-ui/compare/v0.2.12...v0.3.1) (2019-07-18)
 
 
