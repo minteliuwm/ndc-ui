@@ -26,8 +26,10 @@
             'disabled': item.disabled
           }"
           @click="handleClick(item)"
-          v-html="getCustomOption(item)"
         >
+          <slot name="option" :option="item">
+            <span v-html="getCustomOption(item)"></span>
+          </slot>
         </div>
       </div>
       <div class="ndc-select-empty" v-else>

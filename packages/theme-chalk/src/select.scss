@@ -2,7 +2,7 @@
   position: relative;
   height: 32px;
   width: 300px;
-  border: 1px solid #eee;
+  border: 1px solid #d3ddee;
   border-radius: 4px;
   box-sizing: border-box;
   &:hover,
@@ -12,7 +12,7 @@
   &.disabled {
     &:hover,
     &:focus {
-      border-color: #eee;
+      border-color: #d3ddee;
     }
   }
   &-label {
@@ -26,10 +26,10 @@
     user-select: none;
     &.disabled {
       cursor: not-allowed;
-      color: #999;
+      color: #cacaca;
     }
     &.placeholder {
-      color: #999;
+      color: #cacaca;
     }
   }
   &-input {
@@ -54,7 +54,7 @@
       cursor: not-allowed;
     }
     &.placeholder {
-      color: #999;
+      color: #cacaca;
     }
   }
   &-down {
@@ -64,7 +64,7 @@
     transform: translateY(-50%);
     cursor: pointer;
     &:before {
-      color: #999;
+      color: #cacaca;
     }
   }
   &-clear {
@@ -74,15 +74,16 @@
     transform: translateY(-50%);
     cursor: pointer;
     &:before {
-      color: #999;
+      color: #cacaca;
     }
   }
   &-panel {
     position: absolute;
     z-index: 99;
     top: 34px;
-    border: 1px solid #eee;
+    border: 1px solid #d3ddee;
     border-radius: 4px;
+    width: 100%;
     min-width: 300px;
     max-height: 400px;
     overflow: auto;
@@ -109,6 +110,6 @@
     padding: 0 10px;
     line-height: 32px;
     box-sizing: border-box;
-    color: #999;
+    color: #cacaca;
   }
 }
