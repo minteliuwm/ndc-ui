@@ -62,7 +62,7 @@
     "markdown-it-container": "^2.0.0",
     "markdown-it-decorate": "^1.2.2",
     "markdown-it-task-checkbox": "^1.0.6",
-    "node-sass": "^4.9.0",
+    "node-sass": "^7.0.0",
     "pkg-conf": "^3.1.0",
     "progress-bar-webpack-plugin": "^1.12.1",
     "sass-loader": "^7.1.0",
